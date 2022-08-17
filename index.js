@@ -52,7 +52,7 @@ async function showRoute(start, end) {
     // otherwise, make a new request
     else {
         map.addLayer({
-            id: 'route',
+            id: 'route', //can take whatever name
             type: 'line',
             source: {
                 type: 'geojson',
